@@ -1,0 +1,30 @@
+.flex{
+    display: flex;
+    align-items: center;
+}
+.flex-between{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flex-around{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+html{
+    font-size: 20px;
+}
+body{
+    position: relative;
+}
