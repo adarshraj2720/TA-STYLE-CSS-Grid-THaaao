@@ -160,4 +160,14 @@ ul li a {
       grid-row-start: 2;
   grid-row-end: 4;
 }
+
+@media screen and (max-width: 768px) {
+  .box {
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 1rem;
+    -ms-grid-columns: (3, 1fr)[autofit];
+        grid-template-columns: repeat(autofit 3, 1fr);
+  }
+}
 /*# sourceMappingURL=style.css.map */

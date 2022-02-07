@@ -86,3 +86,12 @@ ul{
     grid-row-start: 2;
     grid-row-end: 4;
 }
+
+@media screen  and (max-width:768px){
+    .box{
+   
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-columns: repeat(autofit 3,1fr);
+    }
+}
